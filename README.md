@@ -1,13 +1,10 @@
-# Database Management System (DBMS) Crash Course
-# Week One
-## The sessions included under the first week are:
+# Fundamentals of Database Management System (DBMS) Crash Course
+## Week One
 <details>
 <summary> Day 1: Introduction DBMS </summary>
 <blockquote> 
 
-![First.Image] (DB Images/1.png)
-
- - [Video 1: Introduction about DBMS](https://www.youtube.com/watch?v=6Iu45VZGQDk&list=PLBlnK6fEyqRi_CUQ-FXxgzKQ1dwr_ZJWZ&index=1 "Introduction to Database Management System") 
+- [Video 1: Introduction about DBMS](https://www.youtube.com/watch?v=6Iu45VZGQDk&list=PLBlnK6fEyqRi_CUQ-FXxgzKQ1dwr_ZJWZ&index=1 "Introduction to Database Management System") 
 </blockquote>
 </details>
 
@@ -61,10 +58,8 @@
 </details>
 
 ---
----
 
-# Week Two
-## The sessions included under the second week are:
+## Week Two
 <details>
 <summary> Day 1: DBMS Architecture </summary>
 <blockquote> 
@@ -114,9 +109,8 @@
 </details>
 
 ---
----
-# Week Three
-## The sessions included under the third week are:
+
+## Week Three
 <details>
 <summary> Day 1: Introduction to Relational Data Model </summary>
 <blockquote> 
@@ -166,9 +160,9 @@
 </details>
 
 ---
----
-# Week Four
-## The sessions included under week four are:
+
+## Week Four
+
 <details>
 <summary> Day 1: Relational Algebra Operations - Unary </summary>
 <blockquote> 
@@ -219,9 +213,9 @@
 
 
 ---
----
-# Week Five
-## The sessions included under week five are:
+
+## Week Five
+
 <details>
 <summary> Day 1: Basics of Structured Query Language (SQL) </summary>
 
@@ -300,13 +294,13 @@ Microsoft is the vendor of SQL Server. The newest version is “SQL Server 2012�
 We have different editions of SQL Server, where SQL Server Express is free to download and use. 
 SQL Server uses T-SQL (Transact-SQL). T-SQL is Microsoft's proprietary extension to SQL. T-SQL is very similar to standard SQL, but in addition it supports some extra functionality, built-in functions, etc. T-SQL expands on the SQL standard to include procedural programming, local variables, various support functions for string processing, date processing, mathematics, etc. 
 SQL Server consists of a Database Engine and a Management Studio (and lots of other stuff which we will not mention here). The Database engine has no graphical interface - it is just a service running in the background of your computer (preferable on the server). The Management Studio is graphical tool for configuring and viewing the information in the database. It can be installed on the server or on the client (or both). 
-<img src="DB Images/1.png">
+<img src="images/1.png">
 
 ## SQL Server Management Studio 
 SQL Server Management Studio is a GUI tool included with SQL Server for configuring, managing, and administering all components within Microsoft SQL Server. The tool includes both script editors and graphical tools that work with objects and features of the server. As mentioned earlier, version of SQL Server Management Studio is also available for SQL Server Express Edition, for which it is known as SQL Server Management Studio Express. 
 A central feature of SQL Server Management Studio is the Object Explorer, which allows the user to browse, select, and act upon any of the objects within the server. It can be used to visually observe and analyze query plans and optimize the database performance, among others. SQL Server Management Studio can also be used to create a new database, alter any existing database schema by adding or modifying tables and indexes, or analyze performance. It includes the query windows which provide a GUI based interface to write and execute queries. 
 
-<img src="DB Images/2.jpg">
+<img src="images/2.jpg">
 
 When creating SQL commands and queries, the “Query Editor” (select “New Query” from the Toolbar) is used (shown in the figure above). 
 With SQL and the “Query Editor” we can do almost everything with code, but sometimes it is also a good idea to use the different Designer tools in SQL to help us do the work without coding (so much). 
@@ -315,18 +309,18 @@ With SQL and the “Query Editor” we can do almost everything with code, but s
 It is quite simple to create a new database in Microsoft SQL Server. Just right-click on the 
 “Databases” node and select “New Database…” 
 
-<img src="DB Images/3.jpg">
+<img src="images/3.jpg">
 
 There are lots of settings you may set regarding your database, but the only information you must fill in is the name of your database: 
 
-<img src="DB Images/4.jpg">
+<img src="images/4.jpg">
 
 You may also use the SQL language to create a new database, but sometimes it is easier to just use the built-in features in the Management Studio.
 
 ## Queries 
 In order to make a new SQL query, select the “New Query” button from the Toolbar. 
 
-<img src="DB Images/5.jpg">
+<img src="images/5.jpg">
 
 Here we can write any kind of queries that is supported by the SQL language. 
 
