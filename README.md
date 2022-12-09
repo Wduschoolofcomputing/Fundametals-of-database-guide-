@@ -5,6 +5,8 @@
 <summary> Day 1: Introduction DBMS </summary>
 <blockquote> 
 
+![First.Image] (DB Images/1.png)
+
  - [Video 1: Introduction about DBMS](https://www.youtube.com/watch?v=6Iu45VZGQDk&list=PLBlnK6fEyqRi_CUQ-FXxgzKQ1dwr_ZJWZ&index=1 "Introduction to Database Management System") 
 </blockquote>
 </details>
@@ -298,7 +300,7 @@ Microsoft is the vendor of SQL Server. The newest version is â€œSQL Server 2012â
 We have different editions of SQL Server, where SQL Server Express is free to download and use. 
 SQL Server uses T-SQL (Transact-SQL). T-SQL is Microsoft's proprietary extension to SQL. T-SQL is very similar to standard SQL, but in addition it supports some extra functionality, built-in functions, etc. T-SQL expands on the SQL standard to include procedural programming, local variables, various support functions for string processing, date processing, mathematics, etc. 
 SQL Server consists of a Database Engine and a Management Studio (and lots of other stuff which we will not mention here). The Database engine has no graphical interface - it is just a service running in the background of your computer (preferable on the server). The Management Studio is graphical tool for configuring and viewing the information in the database. It can be installed on the server or on the client (or both). 
-<img src="DB Images/1.jpg">
+<img src="DB Images/1.png">
 
 ## SQL Server Management Studio 
 SQL Server Management Studio is a GUI tool included with SQL Server for configuring, managing, and administering all components within Microsoft SQL Server. The tool includes both script editors and graphical tools that work with objects and features of the server. As mentioned earlier, version of SQL Server Management Studio is also available for SQL Server Express Edition, for which it is known as SQL Server Management Studio Express. 
